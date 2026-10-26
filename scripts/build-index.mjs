@@ -49,7 +49,11 @@ function walk(dir) {
 }
 
 /** Skills that live in this repository. */
-export function hosted(root) {
+/** Group shown for every skill hosted here, whatever else `hostedGroups` in catalog.json adds. */
+const OWN_GROUP = 'zero1code skill'
+const MAX_GROUPS = 4
+
+export function hosted(root, hostedGroups = {}) {
   const skillsDir = join(root, 'skills')
   const errors = []
   const skills = []
@@ -74,7 +78,8 @@ export function hosted(root) {
     if (files.reduce((n, f) => n + f.size, 0) > MAX_BYTES) fail(`larger than ${MAX_BYTES} bytes`)
     skills.push({
       name, description: meta.description ?? '', license: meta.license ?? '', category: meta.metadata?.category ?? '',
-      author: meta.metadata?.author ?? '', hasScripts: hasScripts(files.map((f) => f.path)), files,
+      author: meta.metadata?.author ?? '', groups: [OWN_GROUP, ...(hostedGroups[name] ?? [])],
+      hasScripts: hasScripts(files.map((f) => f.path)), files,
     })
   }
   return { errors, skills }
@@ -115,6 +120,8 @@ export async function external(catalog, { fetchImpl = fetch, token } = {}) {
       const bad = (msg) => errors.push(`${repo} ${name}: ${msg}`)
       if (!NAME.test(name ?? '')) { bad('invalid name'); continue }
       const prefix = `${entry.path}/`
+      if (!Array.isArray(entry.groups) || entry.groups.length === 0 || entry.groups.length > MAX_GROUPS
+        || !entry.groups.every((g) => typeof g === 'string' && g.trim() !== '')) { bad(`groups: 1 to ${MAX_GROUPS} non-empty names are required`); continue }
       const picked = []
       for (const [path, blob] of blobs) {
         if (!path.startsWith(prefix)) continue
@@ -145,7 +152,7 @@ export async function external(catalog, { fetchImpl = fetch, token } = {}) {
       if (!meta.description) bad('description is required')
       skills.push({
         name, description: meta.description ?? '', license: source.license, category: entry.category ?? '',
-        author: repo.split('/')[0], source: `github.com/${repo}`, repo, ref, path: entry.path,
+        author: repo.split('/')[0], source: `github.com/${repo}`, repo, ref, path: entry.path, groups: entry.groups,
         hasScripts: hasScripts(files.map((f) => f.path)),
         files: files.map(({ bytes: _bytes, ...f }) => f),
       })
@@ -164,7 +171,7 @@ export function render(skills) {
 export function check(root, indexText, catalog) {
   const errors = []
   const index = JSON.parse(indexText)
-  const h = hosted(root)
+  const h = hosted(root, catalog.hostedGroups)
   errors.push(...h.errors)
   const want = JSON.stringify(h.skills)
   const have = JSON.stringify(index.skills.filter((s) => s.repo === undefined))
@@ -186,7 +193,7 @@ if (process.argv[1]?.endsWith('build-index.mjs')) { // CLI only; the tests impor
     if (errors.length) { console.error(errors.join('\n')); process.exit(1) }
     console.log('index.json: consistent')
   } else {
-    const h = hosted(root)
+    const h = hosted(root, readCatalog(root).hostedGroups)
     const e = await external(readCatalog(root), { token: process.env.GITHUB_TOKEN })
     const errors = [...h.errors, ...e.errors]
     if (errors.length) { console.error(errors.join('\n')); process.exit(1) }

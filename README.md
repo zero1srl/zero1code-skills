@@ -48,6 +48,10 @@ da zero dalla documentazione pubblica delle librerie (non derivano da altre skil
 3. `GITHUB_TOKEN=$(gh auth token) node scripts/build-index.mjs` scarica i file ai commit indicati e rigenera `index.json`.
 4. Per aggiornare una skill si cambia `ref` e si rigenera: il commit fissato è ciò che l'utente riceve, non il ramo.
 
+## Gruppi
+
+Ogni skill ha da 1 a 4 gruppi (può comparire in più gruppi): l'app li usa per filtrare l'elenco. Per i riferimenti si scrivono in `catalog.json` (campo `groups`, obbligatorio: la costruzione dell'indice fallisce senza); per le skill ospitate si aggiunge il nome in `hostedGroups` (il gruppo `zero1code skill` è automatico). Un nome con ` · ` (es. `SAP · ABAP`) è un sotto-gruppo di `SAP`.
+
 ## Controlli
 
 `node --test` e `node scripts/build-index.mjs --check` (offline: l'indice corrisponde a `skills/` e a `catalog.json`) girano

@@ -24,6 +24,8 @@ test('valid hosted skill is indexed with metadata and script flag', () => {
   assert.equal(skills[0].description, 'Does a thing.')
   assert.equal(skills[0].category, 'dev')
   assert.equal(skills[0].hasScripts, true)
+  assert.deepEqual(skills[0].groups, ['zero1code skill'])
+  assert.deepEqual(hosted(root, { good: ['Office e documenti'] }).skills[0].groups, ['zero1code skill', 'Office e documenti'])
   assert.deepEqual(skills[0].files.map((f) => f.path), ['SKILL.md', 'scripts/run.sh'])
 })
 
@@ -48,7 +50,7 @@ const fakeFetch = async (url) => {
   const path = decodeURIComponent(u.split(`/${REF}/`)[1])
   return path in files ? new Response(files[path]) : new Response('', { status: 404 })
 }
-const catalog = { sources: [{ repo: 'acme/skills', ref: REF, license: 'MIT', licenseFiles: ['LICENSE'], skills: [{ name: 'demo', path: 'pkg/demo' }] }] }
+const catalog = { sources: [{ repo: 'acme/skills', ref: REF, license: 'MIT', licenseFiles: ['LICENSE'], skills: [{ name: 'demo', path: 'pkg/demo', groups: ['Sviluppo web', 'Design e UI'] }] }] }
 
 test('external skill: files pinned to the commit, license file added, only its own folder', async () => {
   const { errors, skills } = await external(catalog, { fetchImpl: fakeFetch })
@@ -56,10 +58,17 @@ test('external skill: files pinned to the commit, license file added, only its o
   assert.deepEqual(skills[0].files.map((f) => f.path), ['LICENSE', 'SKILL.md', 'run.py'])
   assert.equal(skills[0].files[1].url, `https://raw.githubusercontent.com/acme/skills/${REF}/pkg/demo/SKILL.md`)
   assert.equal(skills[0].hasScripts, true)
+  assert.deepEqual(skills[0].groups, ['Sviluppo web', 'Design e UI'])
+})
+
+test('an external skill without groups is rejected', async () => {
+  const bad = { sources: [{ ...catalog.sources[0], skills: [{ name: 'demo', path: 'pkg/demo' }] }] }
+  const { errors } = await external(bad, { fetchImpl: fakeFetch })
+  assert.match(errors[0], /groups/)
 })
 
 test('external skill with a frontmatter name that differs from the catalog name is rejected', async () => {
-  const bad = { sources: [{ ...catalog.sources[0], skills: [{ name: 'renamed', path: 'pkg/demo' }] }] }
+  const bad = { sources: [{ ...catalog.sources[0], skills: [{ name: 'renamed', path: 'pkg/demo', groups: ['Sviluppo web'] }] }] }
   const { errors } = await external(bad, { fetchImpl: fakeFetch })
   assert.match(errors[0], /must equal "renamed"/)
 })

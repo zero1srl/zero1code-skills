@@ -12,19 +12,31 @@
       "skills": [
         {
           "name": "caveman",
-          "path": "skills/caveman"
+          "path": "skills/caveman",
+          "groups": [
+            "Agenti e produttività"
+          ]
         },
         {
           "name": "caveman-commit",
-          "path": "skills/caveman-commit"
+          "path": "skills/caveman-commit",
+          "groups": [
+            "Agenti e produttività"
+          ]
         },
         {
           "name": "caveman-compress",
-          "path": "skills/caveman-compress"
+          "path": "skills/caveman-compress",
+          "groups": [
+            "Agenti e produttività"
+          ]
         },
         {
           "name": "caveman-review",
-          "path": "skills/caveman-review"
+          "path": "skills/caveman-review",
+          "groups": [
+            "Agenti e produttività"
+          ]
         }
       ]
     },
@@ -36,23 +48,41 @@
       "skills": [
         {
           "name": "frontend-design",
-          "path": "skills/frontend-design"
+          "path": "skills/frontend-design",
+          "groups": [
+            "Sviluppo web",
+            "Design e UI"
+          ]
         },
         {
           "name": "mcp-builder",
-          "path": "skills/mcp-builder"
+          "path": "skills/mcp-builder",
+          "groups": [
+            "Strumenti e integrazioni",
+            "AI e conoscenza"
+          ]
         },
         {
           "name": "skill-creator",
-          "path": "skills/skill-creator"
+          "path": "skills/skill-creator",
+          "groups": [
+            "Agenti e produttività"
+          ]
         },
         {
           "name": "web-artifacts-builder",
-          "path": "skills/web-artifacts-builder"
+          "path": "skills/web-artifacts-builder",
+          "groups": [
+            "Sviluppo web"
+          ]
         },
         {
           "name": "webapp-testing",
-          "path": "skills/webapp-testing"
+          "path": "skills/webapp-testing",
+          "groups": [
+            "Sviluppo web",
+            "Strumenti e integrazioni"
+          ]
         }
       ]
     },
@@ -66,11 +96,17 @@
       "skills": [
         {
           "name": "linux-administration",
-          "path": "infrastructure/servers/linux-administration"
+          "path": "infrastructure/servers/linux-administration",
+          "groups": [
+            "DevOps e sicurezza"
+          ]
         },
         {
           "name": "linux-hardening",
-          "path": "security/hardening/linux-hardening"
+          "path": "security/hardening/linux-hardening",
+          "groups": [
+            "DevOps e sicurezza"
+          ]
         }
       ]
     },
@@ -84,7 +120,10 @@
       "skills": [
         {
           "name": "marketing-ideas",
-          "path": "skills/marketing-ideas"
+          "path": "skills/marketing-ideas",
+          "groups": [
+            "Marketing"
+          ]
         }
       ]
     },
@@ -98,27 +137,45 @@
       "skills": [
         {
           "name": "ponytail",
-          "path": "skills/ponytail"
+          "path": "skills/ponytail",
+          "groups": [
+            "Agenti e produttività"
+          ]
         },
         {
           "name": "ponytail-audit",
-          "path": "skills/ponytail-audit"
+          "path": "skills/ponytail-audit",
+          "groups": [
+            "Agenti e produttività"
+          ]
         },
         {
           "name": "ponytail-debt",
-          "path": "skills/ponytail-debt"
+          "path": "skills/ponytail-debt",
+          "groups": [
+            "Agenti e produttività"
+          ]
         },
         {
           "name": "ponytail-gain",
-          "path": "skills/ponytail-gain"
+          "path": "skills/ponytail-gain",
+          "groups": [
+            "Agenti e produttività"
+          ]
         },
         {
           "name": "ponytail-help",
-          "path": "skills/ponytail-help"
+          "path": "skills/ponytail-help",
+          "groups": [
+            "Agenti e produttività"
+          ]
         },
         {
           "name": "ponytail-review",
-          "path": "skills/ponytail-review"
+          "path": "skills/ponytail-review",
+          "groups": [
+            "Agenti e produttività"
+          ]
         }
       ]
     },
@@ -132,59 +189,111 @@
       "skills": [
         {
           "name": "animate",
-          "path": "skills/animate"
+          "path": "skills/animate",
+          "groups": [
+            "Animazione",
+            "Design e UI",
+            "Sviluppo web"
+          ]
         },
         {
           "name": "animate-expo",
-          "path": "skills/animate-expo"
+          "path": "skills/animate-expo",
+          "groups": [
+            "Animazione",
+            "Mobile"
+          ]
         },
         {
           "name": "animation-vocabulary",
-          "path": "skills/animation-vocabulary"
+          "path": "skills/animation-vocabulary",
+          "groups": [
+            "Animazione",
+            "Design e UI"
+          ]
         },
         {
           "name": "apple-design",
-          "path": "skills/apple-design"
+          "path": "skills/apple-design",
+          "groups": [
+            "Design e UI",
+            "Animazione"
+          ]
         },
         {
           "name": "ask-sonner",
-          "path": "skills/ask-sonner"
+          "path": "skills/ask-sonner",
+          "groups": [
+            "Sviluppo web"
+          ]
         },
         {
           "name": "break-ui",
-          "path": "skills/break-ui"
+          "path": "skills/break-ui",
+          "groups": [
+            "Sviluppo web",
+            "Design e UI"
+          ]
         },
         {
           "name": "emil-design-eng",
-          "path": "skills/emil-design-eng"
+          "path": "skills/emil-design-eng",
+          "groups": [
+            "Design e UI",
+            "Animazione"
+          ]
         },
         {
           "name": "find-animation-opportunities",
-          "path": "skills/find-animation-opportunities"
+          "path": "skills/find-animation-opportunities",
+          "groups": [
+            "Animazione"
+          ]
         },
         {
           "name": "improve-animations",
-          "path": "skills/improve-animations"
+          "path": "skills/improve-animations",
+          "groups": [
+            "Animazione"
+          ]
         },
         {
           "name": "mobile-native",
-          "path": "skills/mobile-native"
+          "path": "skills/mobile-native",
+          "groups": [
+            "Mobile",
+            "Sviluppo web"
+          ]
         },
         {
           "name": "pick-ui-library",
-          "path": "skills/pick-ui-library"
+          "path": "skills/pick-ui-library",
+          "groups": [
+            "Sviluppo web",
+            "Design e UI"
+          ]
         },
         {
           "name": "prototype",
-          "path": "skills/prototype"
+          "path": "skills/prototype",
+          "groups": [
+            "Design e UI",
+            "Sviluppo web"
+          ]
         },
         {
           "name": "review-animations",
-          "path": "skills/review-animations"
+          "path": "skills/review-animations",
+          "groups": [
+            "Animazione"
+          ]
         },
         {
           "name": "write-swift",
-          "path": "skills/write-swift"
+          "path": "skills/write-swift",
+          "groups": [
+            "Mobile"
+          ]
         }
       ]
     },
@@ -198,7 +307,11 @@
       "skills": [
         {
           "name": "premium-frontend-ui",
-          "path": "skills/premium-frontend-ui"
+          "path": "skills/premium-frontend-ui",
+          "groups": [
+            "Sviluppo web",
+            "Design e UI"
+          ]
         }
       ]
     },
@@ -212,7 +325,10 @@
       "skills": [
         {
           "name": "design-md",
-          "path": "plugins/stitch-utilities/skills/design-md"
+          "path": "plugins/stitch-utilities/skills/design-md",
+          "groups": [
+            "Design e UI"
+          ]
         }
       ]
     },
@@ -226,7 +342,10 @@
       "skills": [
         {
           "name": "debian-ubuntu",
-          "path": "skills/debian-ubuntu"
+          "path": "skills/debian-ubuntu",
+          "groups": [
+            "DevOps e sicurezza"
+          ]
         }
       ]
     },
@@ -240,7 +359,11 @@
       "skills": [
         {
           "name": "langfuse",
-          "path": "skills/langfuse"
+          "path": "skills/langfuse",
+          "groups": [
+            "AI e conoscenza",
+            "Dati e backend"
+          ]
         }
       ]
     },
@@ -254,7 +377,11 @@
       "skills": [
         {
           "name": "design-taste-frontend",
-          "path": "skills/taste-skill"
+          "path": "skills/taste-skill",
+          "groups": [
+            "Design e UI",
+            "Sviluppo web"
+          ]
         }
       ]
     },
@@ -268,7 +395,10 @@
       "skills": [
         {
           "name": "handoff",
-          "path": "skills/productivity/handoff"
+          "path": "skills/productivity/handoff",
+          "groups": [
+            "Agenti e produttività"
+          ]
         }
       ]
     },
@@ -282,39 +412,66 @@
       "skills": [
         {
           "name": "printing-press",
-          "path": "skills/printing-press"
+          "path": "skills/printing-press",
+          "groups": [
+            "Strumenti e integrazioni"
+          ]
         },
         {
           "name": "printing-press-amend",
-          "path": "skills/printing-press-amend"
+          "path": "skills/printing-press-amend",
+          "groups": [
+            "Strumenti e integrazioni"
+          ]
         },
         {
           "name": "printing-press-import",
-          "path": "skills/printing-press-import"
+          "path": "skills/printing-press-import",
+          "groups": [
+            "Strumenti e integrazioni"
+          ]
         },
         {
           "name": "printing-press-output-review",
-          "path": "skills/printing-press-output-review"
+          "path": "skills/printing-press-output-review",
+          "groups": [
+            "Strumenti e integrazioni"
+          ]
         },
         {
           "name": "printing-press-polish",
-          "path": "skills/printing-press-polish"
+          "path": "skills/printing-press-polish",
+          "groups": [
+            "Strumenti e integrazioni"
+          ]
         },
         {
           "name": "printing-press-publish",
-          "path": "skills/printing-press-publish"
+          "path": "skills/printing-press-publish",
+          "groups": [
+            "Strumenti e integrazioni"
+          ]
         },
         {
           "name": "printing-press-reprint",
-          "path": "skills/printing-press-reprint"
+          "path": "skills/printing-press-reprint",
+          "groups": [
+            "Strumenti e integrazioni"
+          ]
         },
         {
           "name": "printing-press-retro",
-          "path": "skills/printing-press-retro"
+          "path": "skills/printing-press-retro",
+          "groups": [
+            "Strumenti e integrazioni"
+          ]
         },
         {
           "name": "printing-press-score",
-          "path": "skills/printing-press-score"
+          "path": "skills/printing-press-score",
+          "groups": [
+            "Strumenti e integrazioni"
+          ]
         }
       ]
     },
@@ -328,7 +485,10 @@
       "skills": [
         {
           "name": "ui-ux-pro-max",
-          "path": ".claude/skills/ui-ux-pro-max"
+          "path": ".claude/skills/ui-ux-pro-max",
+          "groups": [
+            "Design e UI"
+          ]
         }
       ]
     },
@@ -342,11 +502,17 @@
       "skills": [
         {
           "name": "brainstorming",
-          "path": "skills/brainstorming"
+          "path": "skills/brainstorming",
+          "groups": [
+            "Agenti e produttività"
+          ]
         },
         {
           "name": "using-superpowers",
-          "path": "skills/using-superpowers"
+          "path": "skills/using-superpowers",
+          "groups": [
+            "Agenti e produttività"
+          ]
         }
       ]
     },
@@ -361,7 +527,11 @@
       "skills": [
         {
           "name": "impeccable",
-          "path": ".agents/skills/impeccable"
+          "path": ".agents/skills/impeccable",
+          "groups": [
+            "Design e UI",
+            "Sviluppo web"
+          ]
         }
       ]
     },
@@ -383,7 +553,11 @@
           ],
           "rename": {
             "skill.md": "SKILL.md"
-          }
+          },
+          "groups": [
+            "AI e conoscenza",
+            "Agenti e produttività"
+          ]
         }
       ]
     },
@@ -398,202 +572,362 @@
         {
           "name": "sap-abap",
           "path": "plugins/sap-abap/skills/sap-abap",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · ABAP"
+          ]
         },
         {
           "name": "sap-abap-cds",
           "path": "plugins/sap-abap-cds/skills/sap-abap-cds",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · ABAP"
+          ]
         },
         {
           "name": "sap-ai-core",
           "path": "plugins/sap-ai-core/skills/sap-ai-core",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-api-policy",
           "path": "plugins/sap-api-policy/skills/sap-api-policy",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-api-style",
           "path": "plugins/sap-api-style/skills/sap-api-style",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-browser-automation",
           "path": "plugins/sap-browser-automation/skills/sap-browser-automation",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-best-practices",
           "path": "plugins/sap-btp-best-practices/skills/sap-btp-best-practices",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-build-work-zone-advanced",
           "path": "plugins/sap-btp-build-work-zone-advanced/skills/sap-btp-build-work-zone-advanced",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-business-application-studio",
           "path": "plugins/sap-btp-business-application-studio/skills/sap-btp-business-application-studio",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-cias",
           "path": "plugins/sap-btp-cias/skills/sap-btp-cias",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-cloud-identity-services",
           "path": "plugins/sap-btp-cloud-identity-services/skills/sap-btp-cloud-identity-services",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-cloud-logging",
           "path": "plugins/sap-btp-cloud-logging/skills/sap-btp-cloud-logging",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-cloud-platform",
           "path": "plugins/sap-btp-cloud-platform/skills/sap-btp-cloud-platform",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-cloud-transport-management",
           "path": "plugins/sap-btp-cloud-transport-management/skills/sap-btp-cloud-transport-management",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-connectivity",
           "path": "plugins/sap-btp-connectivity/skills/sap-btp-connectivity",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-developer-guide",
           "path": "plugins/sap-btp-developer-guide/skills/sap-btp-developer-guide",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-integration-suite",
           "path": "plugins/sap-btp-integration-suite/skills/sap-btp-integration-suite",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-intelligent-situation-automation",
           "path": "plugins/sap-btp-intelligent-situation-automation/skills/sap-btp-intelligent-situation-automation",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-job-scheduling",
           "path": "plugins/sap-btp-job-scheduling/skills/sap-btp-job-scheduling",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-master-data-integration",
           "path": "plugins/sap-btp-master-data-integration/skills/sap-btp-master-data-integration",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-btp-service-manager",
           "path": "plugins/sap-btp-service-manager/skills/sap-btp-service-manager",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-bw-query",
           "path": "plugins/sap-bw-query/skills/sap-bw-query",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Dati e analytics"
+          ]
         },
         {
           "name": "sap-cap-capire",
           "path": "plugins/sap-cap-capire/skills/sap-cap-capire",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-cloud-sdk-ai",
           "path": "plugins/sap-cloud-sdk-ai/skills/sap-cloud-sdk-ai",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-cloud-sdk-ai-python",
           "path": "plugins/sap-cloud-sdk-ai-python/skills/sap-cloud-sdk-ai-python",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-datasphere",
           "path": "plugins/sap-datasphere/skills/sap-datasphere",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Dati e analytics"
+          ]
         },
         {
           "name": "sap-dependency-security",
           "path": "plugins/sap-dependency-security/skills/sap-dependency-security",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · BTP e cloud"
+          ]
         },
         {
           "name": "sap-fiori-tools",
           "path": "plugins/sap-fiori-tools/skills/sap-fiori-tools",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Fiori e UI5"
+          ]
         },
         {
           "name": "sap-hana-cli",
           "path": "plugins/sap-hana-cli/skills/sap-hana-cli",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Dati e analytics"
+          ]
         },
         {
           "name": "sap-hana-cloud-data-intelligence",
           "path": "plugins/sap-hana-cloud-data-intelligence/skills/sap-hana-cloud-data-intelligence",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Dati e analytics"
+          ]
         },
         {
           "name": "sap-hana-ml",
           "path": "plugins/sap-hana-ml/skills/sap-hana-ml",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Dati e analytics"
+          ]
         },
         {
           "name": "sap-rpt1",
           "path": "plugins/sap-rpt1/skills/sap-rpt1",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Dati e analytics"
+          ]
         },
         {
           "name": "sap-sac-custom-widget",
           "path": "plugins/sap-sac-custom-widget/skills/sap-sac-custom-widget",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Dati e analytics"
+          ]
         },
         {
           "name": "sap-sac-planning",
           "path": "plugins/sap-sac-planning/skills/sap-sac-planning",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Dati e analytics"
+          ]
         },
         {
           "name": "sap-sac-scripting",
           "path": "plugins/sap-sac-scripting/skills/sap-sac-scripting",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Dati e analytics"
+          ]
         },
         {
           "name": "sap-sac-test-automation",
           "path": "plugins/sap-sac-test-automation/skills/sap-sac-test-automation",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Dati e analytics"
+          ]
         },
         {
           "name": "sap-sqlscript",
           "path": "plugins/sap-sqlscript/skills/sap-sqlscript",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Dati e analytics"
+          ]
         },
         {
           "name": "sapui5",
           "path": "plugins/sapui5/skills/sapui5",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Fiori e UI5"
+          ]
         },
         {
           "name": "sapui5-cli",
           "path": "plugins/sapui5-cli/skills/sapui5-cli",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Fiori e UI5"
+          ]
         },
         {
           "name": "sapui5-linter",
           "path": "plugins/sapui5-linter/skills/sapui5-linter",
-          "category": "SAP"
+          "category": "SAP",
+          "groups": [
+            "SAP",
+            "SAP · Fiori e UI5"
+          ]
         }
       ]
     },
@@ -607,11 +941,17 @@
       "skills": [
         {
           "name": "supabase",
-          "path": "skills/supabase"
+          "path": "skills/supabase",
+          "groups": [
+            "Dati e backend"
+          ]
         },
         {
           "name": "supabase-postgres-best-practices",
-          "path": "skills/supabase-postgres-best-practices"
+          "path": "skills/supabase-postgres-best-practices",
+          "groups": [
+            "Dati e backend"
+          ]
         }
       ]
     },
@@ -625,7 +965,11 @@
       "skills": [
         {
           "name": "agent-browser",
-          "path": "skills/agent-browser"
+          "path": "skills/agent-browser",
+          "groups": [
+            "Strumenti e integrazioni",
+            "Sviluppo web"
+          ]
         }
       ]
     },
@@ -637,7 +981,10 @@
       "skills": [
         {
           "name": "vercel-react-best-practices",
-          "path": "skills/react-best-practices"
+          "path": "skills/react-best-practices",
+          "groups": [
+            "Sviluppo web"
+          ]
         }
       ]
     },
@@ -651,7 +998,10 @@
       "skills": [
         {
           "name": "find-skills",
-          "path": "skills/find-skills"
+          "path": "skills/find-skills",
+          "groups": [
+            "Agenti e produttività"
+          ]
         }
       ]
     },
@@ -665,9 +1015,26 @@
       "skills": [
         {
           "name": "rag-implementation",
-          "path": "plugins/llm-application-dev/skills/rag-implementation"
+          "path": "plugins/llm-application-dev/skills/rag-implementation",
+          "groups": [
+            "AI e conoscenza"
+          ]
         }
       ]
     }
-  ]
+  ],
+  "hostedGroups": {
+    "zero1-docx": [
+      "Office e documenti"
+    ],
+    "zero1-xlsx": [
+      "Office e documenti"
+    ],
+    "zero1-pptx": [
+      "Office e documenti"
+    ],
+    "zero1-skill-creator": [
+      "Agenti e produttività"
+    ]
+  }
 }
