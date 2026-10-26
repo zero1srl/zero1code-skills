@@ -1,0 +1,673 @@
+{
+  "sources": [
+    {
+      "repo": "JuliusBrussee/caveman",
+      "ref": "9b68f7ed12b05e7efaff18e65c5a3fc2849fd0a4",
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "LICENSE",
+        "LICENSE-MIT",
+        "NOTICE"
+      ],
+      "skills": [
+        {
+          "name": "caveman",
+          "path": "skills/caveman"
+        },
+        {
+          "name": "caveman-commit",
+          "path": "skills/caveman-commit"
+        },
+        {
+          "name": "caveman-compress",
+          "path": "skills/caveman-compress"
+        },
+        {
+          "name": "caveman-review",
+          "path": "skills/caveman-review"
+        }
+      ]
+    },
+    {
+      "repo": "anthropics/skills",
+      "ref": "dbd4588f9e1033efb41dad4bef2f7947c8993d44",
+      "license": "Apache-2.0",
+      "licenseFiles": [],
+      "skills": [
+        {
+          "name": "frontend-design",
+          "path": "skills/frontend-design"
+        },
+        {
+          "name": "mcp-builder",
+          "path": "skills/mcp-builder"
+        },
+        {
+          "name": "skill-creator",
+          "path": "skills/skill-creator"
+        },
+        {
+          "name": "web-artifacts-builder",
+          "path": "skills/web-artifacts-builder"
+        },
+        {
+          "name": "webapp-testing",
+          "path": "skills/webapp-testing"
+        }
+      ]
+    },
+    {
+      "repo": "BagelHole/DevOps-Security-Agent-Skills",
+      "ref": "0365f57a079b1332f95cf26e31dd2d5332a8399f",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "linux-administration",
+          "path": "infrastructure/servers/linux-administration"
+        },
+        {
+          "name": "linux-hardening",
+          "path": "security/hardening/linux-hardening"
+        }
+      ]
+    },
+    {
+      "repo": "coreyhaines31/marketingskills",
+      "ref": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "marketing-ideas",
+          "path": "skills/marketing-ideas"
+        }
+      ]
+    },
+    {
+      "repo": "DietrichGebert/ponytail",
+      "ref": "09c434ab73ca43761c5d8b0c5d341926c2fba710",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "ponytail",
+          "path": "skills/ponytail"
+        },
+        {
+          "name": "ponytail-audit",
+          "path": "skills/ponytail-audit"
+        },
+        {
+          "name": "ponytail-debt",
+          "path": "skills/ponytail-debt"
+        },
+        {
+          "name": "ponytail-gain",
+          "path": "skills/ponytail-gain"
+        },
+        {
+          "name": "ponytail-help",
+          "path": "skills/ponytail-help"
+        },
+        {
+          "name": "ponytail-review",
+          "path": "skills/ponytail-review"
+        }
+      ]
+    },
+    {
+      "repo": "emilkowalski/skills",
+      "ref": "2d228630ba1446365f614a108cb8252f1feda202",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "animate",
+          "path": "skills/animate"
+        },
+        {
+          "name": "animate-expo",
+          "path": "skills/animate-expo"
+        },
+        {
+          "name": "animation-vocabulary",
+          "path": "skills/animation-vocabulary"
+        },
+        {
+          "name": "apple-design",
+          "path": "skills/apple-design"
+        },
+        {
+          "name": "ask-sonner",
+          "path": "skills/ask-sonner"
+        },
+        {
+          "name": "break-ui",
+          "path": "skills/break-ui"
+        },
+        {
+          "name": "emil-design-eng",
+          "path": "skills/emil-design-eng"
+        },
+        {
+          "name": "find-animation-opportunities",
+          "path": "skills/find-animation-opportunities"
+        },
+        {
+          "name": "improve-animations",
+          "path": "skills/improve-animations"
+        },
+        {
+          "name": "mobile-native",
+          "path": "skills/mobile-native"
+        },
+        {
+          "name": "pick-ui-library",
+          "path": "skills/pick-ui-library"
+        },
+        {
+          "name": "prototype",
+          "path": "skills/prototype"
+        },
+        {
+          "name": "review-animations",
+          "path": "skills/review-animations"
+        },
+        {
+          "name": "write-swift",
+          "path": "skills/write-swift"
+        }
+      ]
+    },
+    {
+      "repo": "github/awesome-copilot",
+      "ref": "b1a00457c0b8794243883f387e7de71e88800e3e",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "premium-frontend-ui",
+          "path": "skills/premium-frontend-ui"
+        }
+      ]
+    },
+    {
+      "repo": "google-labs-code/stitch-skills",
+      "ref": "0337446dadde6f8c94210444e2aa9d546126480f",
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "design-md",
+          "path": "plugins/stitch-utilities/skills/design-md"
+        }
+      ]
+    },
+    {
+      "repo": "iuliandita/skills",
+      "ref": "c256c72b334de481350e319a0db704688fbd463a",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "debian-ubuntu",
+          "path": "skills/debian-ubuntu"
+        }
+      ]
+    },
+    {
+      "repo": "langfuse/skills",
+      "ref": "4429a94b309980e1cee2f5960c271e123347cb42",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "langfuse",
+          "path": "skills/langfuse"
+        }
+      ]
+    },
+    {
+      "repo": "Leonxlnx/taste-skill",
+      "ref": "12af471f627f866411b4bd785b19646d3672784c",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "design-taste-frontend",
+          "path": "skills/taste-skill"
+        }
+      ]
+    },
+    {
+      "repo": "mattpocock/skills",
+      "ref": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "handoff",
+          "path": "skills/productivity/handoff"
+        }
+      ]
+    },
+    {
+      "repo": "mvanhorn/cli-printing-press",
+      "ref": "118371ec613c7cbe01aaa3c3b71fa1be1ceb0b45",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "printing-press",
+          "path": "skills/printing-press"
+        },
+        {
+          "name": "printing-press-amend",
+          "path": "skills/printing-press-amend"
+        },
+        {
+          "name": "printing-press-import",
+          "path": "skills/printing-press-import"
+        },
+        {
+          "name": "printing-press-output-review",
+          "path": "skills/printing-press-output-review"
+        },
+        {
+          "name": "printing-press-polish",
+          "path": "skills/printing-press-polish"
+        },
+        {
+          "name": "printing-press-publish",
+          "path": "skills/printing-press-publish"
+        },
+        {
+          "name": "printing-press-reprint",
+          "path": "skills/printing-press-reprint"
+        },
+        {
+          "name": "printing-press-retro",
+          "path": "skills/printing-press-retro"
+        },
+        {
+          "name": "printing-press-score",
+          "path": "skills/printing-press-score"
+        }
+      ]
+    },
+    {
+      "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+      "ref": "28b3b8dee8c976df4fa3e94aed4e092ad43fcb03",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "ui-ux-pro-max",
+          "path": ".claude/skills/ui-ux-pro-max"
+        }
+      ]
+    },
+    {
+      "repo": "obra/superpowers",
+      "ref": "2ce8aa15d05bd57213e6f746f953aafb7ded7a8b",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "brainstorming",
+          "path": "skills/brainstorming"
+        },
+        {
+          "name": "using-superpowers",
+          "path": "skills/using-superpowers"
+        }
+      ]
+    },
+    {
+      "repo": "pbakaus/impeccable",
+      "ref": "6743a347db6229848348024388033e830ae4af42",
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "LICENSE",
+        "NOTICE.md"
+      ],
+      "skills": [
+        {
+          "name": "impeccable",
+          "path": ".agents/skills/impeccable"
+        }
+      ]
+    },
+    {
+      "repo": "Graphify-Labs/graphify",
+      "ref": "92741d162b2094ffc2fed58cfbd8ee823e9da62c",
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "LICENSE",
+        "LICENSE-MIT",
+        "NOTICE"
+      ],
+      "skills": [
+        {
+          "name": "graphify",
+          "path": "graphify",
+          "files": [
+            "skill.md"
+          ],
+          "rename": {
+            "skill.md": "SKILL.md"
+          }
+        }
+      ]
+    },
+    {
+      "repo": "secondsky/sap-skills",
+      "ref": "652a861d3ed422b71f01c8805f9ec03b14017cd8",
+      "license": "GPL-3.0",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "sap-abap",
+          "path": "plugins/sap-abap/skills/sap-abap",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-abap-cds",
+          "path": "plugins/sap-abap-cds/skills/sap-abap-cds",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-ai-core",
+          "path": "plugins/sap-ai-core/skills/sap-ai-core",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-api-policy",
+          "path": "plugins/sap-api-policy/skills/sap-api-policy",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-api-style",
+          "path": "plugins/sap-api-style/skills/sap-api-style",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-browser-automation",
+          "path": "plugins/sap-browser-automation/skills/sap-browser-automation",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-best-practices",
+          "path": "plugins/sap-btp-best-practices/skills/sap-btp-best-practices",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-build-work-zone-advanced",
+          "path": "plugins/sap-btp-build-work-zone-advanced/skills/sap-btp-build-work-zone-advanced",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-business-application-studio",
+          "path": "plugins/sap-btp-business-application-studio/skills/sap-btp-business-application-studio",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-cias",
+          "path": "plugins/sap-btp-cias/skills/sap-btp-cias",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-cloud-identity-services",
+          "path": "plugins/sap-btp-cloud-identity-services/skills/sap-btp-cloud-identity-services",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-cloud-logging",
+          "path": "plugins/sap-btp-cloud-logging/skills/sap-btp-cloud-logging",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-cloud-platform",
+          "path": "plugins/sap-btp-cloud-platform/skills/sap-btp-cloud-platform",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-cloud-transport-management",
+          "path": "plugins/sap-btp-cloud-transport-management/skills/sap-btp-cloud-transport-management",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-connectivity",
+          "path": "plugins/sap-btp-connectivity/skills/sap-btp-connectivity",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-developer-guide",
+          "path": "plugins/sap-btp-developer-guide/skills/sap-btp-developer-guide",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-integration-suite",
+          "path": "plugins/sap-btp-integration-suite/skills/sap-btp-integration-suite",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-intelligent-situation-automation",
+          "path": "plugins/sap-btp-intelligent-situation-automation/skills/sap-btp-intelligent-situation-automation",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-job-scheduling",
+          "path": "plugins/sap-btp-job-scheduling/skills/sap-btp-job-scheduling",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-master-data-integration",
+          "path": "plugins/sap-btp-master-data-integration/skills/sap-btp-master-data-integration",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-btp-service-manager",
+          "path": "plugins/sap-btp-service-manager/skills/sap-btp-service-manager",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-bw-query",
+          "path": "plugins/sap-bw-query/skills/sap-bw-query",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-cap-capire",
+          "path": "plugins/sap-cap-capire/skills/sap-cap-capire",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-cloud-sdk-ai",
+          "path": "plugins/sap-cloud-sdk-ai/skills/sap-cloud-sdk-ai",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-cloud-sdk-ai-python",
+          "path": "plugins/sap-cloud-sdk-ai-python/skills/sap-cloud-sdk-ai-python",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-datasphere",
+          "path": "plugins/sap-datasphere/skills/sap-datasphere",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-dependency-security",
+          "path": "plugins/sap-dependency-security/skills/sap-dependency-security",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-fiori-tools",
+          "path": "plugins/sap-fiori-tools/skills/sap-fiori-tools",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-hana-cli",
+          "path": "plugins/sap-hana-cli/skills/sap-hana-cli",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-hana-cloud-data-intelligence",
+          "path": "plugins/sap-hana-cloud-data-intelligence/skills/sap-hana-cloud-data-intelligence",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-hana-ml",
+          "path": "plugins/sap-hana-ml/skills/sap-hana-ml",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-rpt1",
+          "path": "plugins/sap-rpt1/skills/sap-rpt1",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-sac-custom-widget",
+          "path": "plugins/sap-sac-custom-widget/skills/sap-sac-custom-widget",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-sac-planning",
+          "path": "plugins/sap-sac-planning/skills/sap-sac-planning",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-sac-scripting",
+          "path": "plugins/sap-sac-scripting/skills/sap-sac-scripting",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-sac-test-automation",
+          "path": "plugins/sap-sac-test-automation/skills/sap-sac-test-automation",
+          "category": "SAP"
+        },
+        {
+          "name": "sap-sqlscript",
+          "path": "plugins/sap-sqlscript/skills/sap-sqlscript",
+          "category": "SAP"
+        },
+        {
+          "name": "sapui5",
+          "path": "plugins/sapui5/skills/sapui5",
+          "category": "SAP"
+        },
+        {
+          "name": "sapui5-cli",
+          "path": "plugins/sapui5-cli/skills/sapui5-cli",
+          "category": "SAP"
+        },
+        {
+          "name": "sapui5-linter",
+          "path": "plugins/sapui5-linter/skills/sapui5-linter",
+          "category": "SAP"
+        }
+      ]
+    },
+    {
+      "repo": "supabase/agent-skills",
+      "ref": "c9be0e931b7930f7d02126d04774d904c381e7d7",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "supabase",
+          "path": "skills/supabase"
+        },
+        {
+          "name": "supabase-postgres-best-practices",
+          "path": "skills/supabase-postgres-best-practices"
+        }
+      ]
+    },
+    {
+      "repo": "vercel-labs/agent-browser",
+      "ref": "04ba5264dade678062c3cdcce0f4f293e748249f",
+      "license": "Apache-2.0",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "agent-browser",
+          "path": "skills/agent-browser"
+        }
+      ]
+    },
+    {
+      "repo": "vercel-labs/agent-skills",
+      "ref": "063bee94c3f4df8453406c830b0a7df0f2860278",
+      "license": "MIT",
+      "licenseFiles": [],
+      "skills": [
+        {
+          "name": "vercel-react-best-practices",
+          "path": "skills/react-best-practices"
+        }
+      ]
+    },
+    {
+      "repo": "vercel-labs/skills",
+      "ref": "a80e4c9d12d607631249d4d7d059f835d4b2f13a",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "find-skills",
+          "path": "skills/find-skills"
+        }
+      ]
+    },
+    {
+      "repo": "wshobson/agents",
+      "ref": "0874a27b17a22e2b7c2e2bcd725768e0803cad06",
+      "license": "MIT",
+      "licenseFiles": [
+        "LICENSE"
+      ],
+      "skills": [
+        {
+          "name": "rag-implementation",
+          "path": "plugins/llm-application-dev/skills/rag-implementation"
+        }
+      ]
+    }
+  ]
+}
