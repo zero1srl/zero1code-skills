@@ -14,7 +14,7 @@ Pubblico in lettura. Solo i collaboratori dell'organizzazione scrivono su `main`
 
 ## Skill nostre (MIT, copyright zero1code)
 
-`zero1-docx`, `zero1-xlsx`, `zero1-pptx`: Word, Excel e PowerPoint con `python-docx`, `openpyxl` e `python-pptx`, scritte
+`zero1-skill-creator` guida l'agente (e l'utente) a creare, correggere e controllare una skill (`skill_tool.py`, solo libreria standard). `zero1-docx`, `zero1-xlsx`, `zero1-pptx`: Word, Excel e PowerPoint con `python-docx`, `openpyxl` e `python-pptx`, scritte
 da zero dalla documentazione pubblica delle librerie (non derivano da altre skill). Ognuna ha script di controllo
 (`describe.py --check`), aiuti per ciò che le librerie non fanno (`helpers.py`) e, dove serve, modifiche tracciate
 (`track.py`), ricalcolo delle formule (`recalc.py`), compilazione di modelli (`replace_text.py`) e anteprima

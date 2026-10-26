@@ -9620,6 +9620,31 @@
       ]
     },
     {
+      "name": "zero1-skill-creator",
+      "description": "Guide the user through creating, improving or checking an agent skill (a SKILL.md with instructions the agent loads on demand) and save it where zero1code reads it. Use when the user says \"crea una skill\", \"voglio una skill che...\", \"trasforma questa procedura in una skill\", \"migliora/correggi la mia skill\", or asks how to teach the agent a repeatable task, a house style or a company procedure.",
+      "license": "MIT",
+      "category": "Skill",
+      "author": "zero1code",
+      "hasScripts": true,
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 1066,
+          "sha256": "bf049ae2612de2e15ecbca8339a718bb5fd347d23e6c28c460fca0d9aa5c8f6e"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 4505,
+          "sha256": "5ff439a7ba0cca7b91937258671ad21116a387219c0b677f5105b9422187e6d4"
+        },
+        {
+          "path": "scripts/skill_tool.py",
+          "size": 8020,
+          "sha256": "c34facdb2c58eab8f02a34c4f77137952fc63e7760964dc94da707ee6a2c4094"
+        }
+      ]
+    },
+    {
       "name": "zero1-xlsx",
       "description": "Create, read, analyse and edit Excel workbooks (.xlsx, .xlsm, .csv): budgets, price lists, reports, trackers, financial models, data cleanup, tables with formulas, charts, validation and conditional formatting. Use when the user asks for an Excel/spreadsheet file, \"foglio Excel\", \"file xlsx\", \"budget\", \"preventivo\", \"report in Excel\", or gives a spreadsheet to read, fix, extend or analyse. Formulas stay live and are checked for errors. Not for Word or PowerPoint files, nor for Google Sheets links.",
       "license": "MIT",
