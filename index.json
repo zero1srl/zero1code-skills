@@ -9538,6 +9538,126 @@
           "url": "https://raw.githubusercontent.com/emilkowalski/skills/2d228630ba1446365f614a108cb8252f1feda202/skills/write-swift/SKILL.md"
         }
       ]
+    },
+    {
+      "name": "zero1-docx",
+      "description": "Create, read and edit Word documents (.docx): reports, letters, contracts, memos, offers, minutes, templates. Use when the user asks for a Word file, \"documento Word\", \"relazione\", \"lettera\", \"contratto\", \"verbale\", or hands over a .docx to review, fill in, correct or annotate (comments, tracked changes). Covers headings and styles, tables, images, headers/footers with page numbers, table of contents, hyperlinks, A4 and landscape pages. Not for PDFs, Google Docs, spreadsheets or slides.",
+      "license": "MIT",
+      "category": "Office",
+      "author": "zero1code",
+      "hasScripts": true,
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 1066,
+          "sha256": "bf049ae2612de2e15ecbca8339a718bb5fd347d23e6c28c460fca0d9aa5c8f6e"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 8567,
+          "sha256": "bb38904aa9c8ae4efda17f1f29fac14a89475c7b510393bce340acb7e48c4622"
+        },
+        {
+          "path": "scripts/describe.py",
+          "size": 5401,
+          "sha256": "821c1edd3d74cc52b555c1f79050193bfe13174bf90b5beeb345eb42c4cc599a"
+        },
+        {
+          "path": "scripts/helpers.py",
+          "size": 7056,
+          "sha256": "13bdc96db9c2b59175944108562afcd3dbf0596cfd01980999e8ef3fc8f1b122"
+        },
+        {
+          "path": "scripts/render.py",
+          "size": 3714,
+          "sha256": "bf84ccbfdb0b3b0105066526e2f88971e224648c38862bc119b98ce7a99e06b4"
+        },
+        {
+          "path": "scripts/track.py",
+          "size": 5866,
+          "sha256": "5b2f4bcc87165ceb65eb7fb19f1ad3d3971ea74495847eee9fa7454fd4304050"
+        }
+      ]
+    },
+    {
+      "name": "zero1-pptx",
+      "description": "Create, read and edit PowerPoint presentations (.pptx, .potx): sales decks, project updates, training, pitch, reports turned into slides, templates to fill in. Use when the user asks for a presentation, \"slide\", \"presentazione\", \"deck\", \"PowerPoint\", or hands over a .pptx to modify, translate, restyle, update numbers or fill from a template. Builds 16:9 slides with real titles, native editable charts and tables, fitted pictures with alt text, and speaker notes. Not for Word, Excel, PDF or Google Slides links.",
+      "license": "MIT",
+      "category": "Office",
+      "author": "zero1code",
+      "hasScripts": true,
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 1066,
+          "sha256": "bf049ae2612de2e15ecbca8339a718bb5fd347d23e6c28c460fca0d9aa5c8f6e"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 7483,
+          "sha256": "4d3bda6ee08b4937c1bfa955e925bda91229a64b4d6ef4b116572e3aa20b0db5"
+        },
+        {
+          "path": "scripts/describe.py",
+          "size": 5786,
+          "sha256": "f470b8816f4e2d49d69b4eaeb3845e90c8523468f691894447796004898e1e35"
+        },
+        {
+          "path": "scripts/helpers.py",
+          "size": 8686,
+          "sha256": "27587fd2eaa044dac0434e95fe80e10ab2e2c07f3b94123bd030cf450d3f6771"
+        },
+        {
+          "path": "scripts/render.py",
+          "size": 3714,
+          "sha256": "bf84ccbfdb0b3b0105066526e2f88971e224648c38862bc119b98ce7a99e06b4"
+        },
+        {
+          "path": "scripts/replace_text.py",
+          "size": 3469,
+          "sha256": "93c0a3b78de7f5c0b600de6649f0501de6d818991185d37c3ab04d63fe2bcf6b"
+        }
+      ]
+    },
+    {
+      "name": "zero1-xlsx",
+      "description": "Create, read, analyse and edit Excel workbooks (.xlsx, .xlsm, .csv): budgets, price lists, reports, trackers, financial models, data cleanup, tables with formulas, charts, validation and conditional formatting. Use when the user asks for an Excel/spreadsheet file, \"foglio Excel\", \"file xlsx\", \"budget\", \"preventivo\", \"report in Excel\", or gives a spreadsheet to read, fix, extend or analyse. Formulas stay live and are checked for errors. Not for Word or PowerPoint files, nor for Google Sheets links.",
+      "license": "MIT",
+      "category": "Office",
+      "author": "zero1code",
+      "hasScripts": true,
+      "files": [
+        {
+          "path": "LICENSE",
+          "size": 1066,
+          "sha256": "bf049ae2612de2e15ecbca8339a718bb5fd347d23e6c28c460fca0d9aa5c8f6e"
+        },
+        {
+          "path": "SKILL.md",
+          "size": 8327,
+          "sha256": "79e828006da7637243258b40e14152b8c9ed44053c6c0dcd096113e9b60536df"
+        },
+        {
+          "path": "scripts/describe.py",
+          "size": 6074,
+          "sha256": "5a1cea472b23a2b82a9cca6d2f69172a22490f3b0395765d896250f8c04ef663"
+        },
+        {
+          "path": "scripts/helpers.py",
+          "size": 3461,
+          "sha256": "b9b7737db3896da80939e4da2f3b294b488fbd3156d86dd835604194c2d698f2"
+        },
+        {
+          "path": "scripts/recalc.py",
+          "size": 2633,
+          "sha256": "b9547dde7b89f70f9e29f77a76008027718b1c30bbe5ee3f247c43917d3b70c4"
+        },
+        {
+          "path": "scripts/render.py",
+          "size": 3714,
+          "sha256": "bf84ccbfdb0b3b0105066526e2f88971e224648c38862bc119b98ce7a99e06b4"
+        }
+      ]
     }
   ]
 }

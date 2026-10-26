@@ -12,6 +12,14 @@ Pubblico in lettura. Solo i collaboratori dell'organizzazione scrivono su `main`
   commit, verifica dimensione e sha256 e mette accanto alla skill i file di licenza del repository originale (`LICENSE`,
   `NOTICE`…). Le licenze restano quelle degli autori (MIT, Apache-2.0, GPL-3.0 per le skill SAP).
 
+## Skill nostre (MIT, copyright zero1code)
+
+`zero1-docx`, `zero1-xlsx`, `zero1-pptx`: Word, Excel e PowerPoint con `python-docx`, `openpyxl` e `python-pptx`, scritte
+da zero dalla documentazione pubblica delle librerie (non derivano da altre skill). Ognuna ha script di controllo
+(`describe.py --check`), aiuti per ciò che le librerie non fanno (`helpers.py`) e, dove serve, modifiche tracciate
+(`track.py`), ricalcolo delle formule (`recalc.py`), compilazione di modelli (`replace_text.py`) e anteprima
+(`render.py`, richiede LibreOffice). I test Python sono in `tests/` (`python -m unittest discover -s tests`).
+
 ## Aggiungere una skill nostra
 
 1. Crea `skills/<nome>/SKILL.md` (nome = cartella: minuscole, cifre, `.`, `_`, `-`).

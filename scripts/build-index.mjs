@@ -45,7 +45,7 @@ const byName = (a, b) => cmp(a.name, b.name)
 
 function walk(dir) {
   return readdirSync(dir, { withFileTypes: true }).flatMap((e) =>
-    e.isDirectory() ? walk(join(dir, e.name)) : e.isFile() ? [join(dir, e.name)] : [])
+    e.isDirectory() ? (e.name === "__pycache__" ? [] : walk(join(dir, e.name))) : e.isFile() && !e.name.endsWith(".pyc") ? [join(dir, e.name)] : [])
 }
 
 /** Skills that live in this repository. */

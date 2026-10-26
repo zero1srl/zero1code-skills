@@ -10,5 +10,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install python-docx python-pptx openpyxl lxml pillow pypdfium2
       - run: node --test
+      - run: python -m unittest discover -s tests
       - run: node scripts/build-index.mjs --check
